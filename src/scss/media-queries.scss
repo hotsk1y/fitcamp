@@ -1,0 +1,244 @@
+/*------------------------------ MEDIA ------------------------------*/
+@media (max-width: 1199px) {
+}
+
+@media screen and (max-width: 1199px) {
+  .hero {
+    h1 {
+      font-size: 21px;
+      span {
+        font-size: 49px;
+      }
+    }
+  }
+  .section__title {
+    font-size: 38px;
+  }
+  .section__subtitle {
+    font-size: 20px;
+  }
+  .reg__title {
+    font-size: 32px;
+  }
+  .base__items {
+    max-width: 940px;
+  }
+  .base__item-title {
+    font-size: 24px;
+  }
+  .base__item-descr {
+    font-size: 16px;
+  }
+  .price__item-text {
+    font-size: 21px;
+  }
+  .food-and-road {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .hero {
+    h1 {
+      font-size: 21px;
+      span {
+        font-size: 38px;
+      }
+    }
+    .reg {
+      max-width: 450px;
+      .reg__title {
+        font-size: 28px;
+      }
+      .reg__descr {
+        .reg__descr-item {
+          .reg__descr-item--text {
+            font-size: 16px;
+            margin-left: 10px;
+          }
+        }
+      }
+      .reg_info {
+        font-size: 16px;
+      }
+      .reg_btn {
+        font-size: 16px;
+      }
+    }
+  }
+  .section__title {
+    margin-bottom: 20px;
+  }
+  .about__item {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .coach__items {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .coach__item {
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  .base__item {
+    flex-direction: column;
+    &:nth-child(2) {
+      .base__item-img {
+        order: 0;
+      }
+      .base__item-text {
+        order: 1;
+      }
+    }
+  }
+  .base__item-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .base__item-title {
+    margin-bottom: 15px;
+  }
+  .price__item {
+    flex-direction: column;
+    padding: 40px 20px;
+    max-width: 700px;
+  }
+  .price__item-text {
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.5;
+  }
+  .price__item-btn {
+    width: auto;
+  }
+  .food-and-road {
+    display: none;
+  }
+  .food-and-road-small {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .hero {
+    h1 {
+      font-size: 18px;
+      span {
+        font-size: 36px;
+      }
+    }
+  }
+  .section__title {
+    font-size: 30px;
+  }
+  .section__subtitle {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .base__item-img {
+    width: 450px;
+    height: 450px;
+  }
+  .base__item-title {
+    font-size: 22px;
+  }
+  .base__item-descr {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+  .price__item-text {
+    font-size: 18px;
+  }
+  .food-and-road {
+    font-size: 16px;
+  }
+  .footer {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero {
+    h1 {
+      font-size: 18px;
+      font-weight: 400;
+      span {
+        font-size: 32px;
+        font-weight: 900;
+      }
+    }
+    .reg {
+      max-width: 300px;
+      .reg__title {
+        font-size: 18px;
+      }
+      .reg__descr {
+        .reg__descr-item {
+          .reg__descr-item--text {
+            font-size: 14px;
+            line-height: 1.4;
+            letter-spacing: 1px;
+            &::before {
+              top: 6px;
+            }
+          }
+        }
+      }
+      .reg_info {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 1.7;
+      }
+      .reg_btn {
+        font-size: 14px;
+      }
+    }
+  }
+  .coach__item {
+    max-width: 330px;
+  }
+  .base__item-img {
+    width: 400px;
+    height: 400px;
+  }
+  .price__item-text {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .food-and-road {
+    font-size: 14px;
+  }
+  .photo__item {
+    max-width: 110px;
+    max-height: 110px;
+    margin: 5px;
+    img {
+      padding: 0;
+    }
+  }
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .coach__item {
+    max-width: 300px;
+  }
+  .base__item-img {
+    width: 350px;
+    height: 350px;
+  }
+  .photo__item {
+    width: 75px;
+    height: 75px;
+    margin: 3px;
+  }
+  .footer {
+    font-size: 12px;
+    padding: 30px;
+  }
+}
